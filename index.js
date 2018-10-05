@@ -24,6 +24,6 @@ const selectDifferentDrivers = function (drivers, whichDrivers) {
   return whichDrivers(drivers);
 };
 
-function fetchSpecifiedDrivers(arrayOfDrivers, f) {
+function fetchSpecifiedDrivers(arrayOfDrivers, drivers) {
   return returnFirstTwoDrivers();
 }
